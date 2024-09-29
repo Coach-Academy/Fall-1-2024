@@ -2,5 +2,11 @@
 using namespace std;
 int main()
 {
-    cout << 123 % 100;
+    int k, x;
+    cin >> k >> x;
+
+    if ((k * 500) >= x)
+        cout << "Yes";
+    else
+        cout << "No";
 }
