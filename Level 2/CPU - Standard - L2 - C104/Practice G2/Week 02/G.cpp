@@ -20,17 +20,17 @@ void fast() {
 #define int long long
 
 void burn(){
-    int n, m;
+    int n,  m;
     cin >> n >> m;
     queue<int>q1, q2;
     for(int i = 0; i < n; i++) {
-        int x;
+         int x;
         cin >> x;
         q1.push(x);
         q2.push(i + 1);
     }
     while(q1.size() > 1) {
-        int val = q1.front(), index = q2.front();
+        int val = q1.front(),  index = q2.front();
         q1.pop();
         q2.pop();
         if (val > m) {
