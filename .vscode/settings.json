@@ -3,6 +3,7 @@
     "*.ejs": "html",
     "*.py": "python",
     "ostream": "cpp",
-    "deque": "cpp"
+    "deque": "cpp",
+    "iostream": "cpp"
   }
 }
